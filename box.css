@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 40px;
+}
+
+p{
+	
+}
+
+.box{
+	width: 1000px;
+	height: 1000px;
+	border: none;
+	margin: 20px auto;
+	position: relative;
+}
+
+.box-one,.box-four,.box-two,.box-five,.box-three{
+	width: 335px;
+	height: 335px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+}
+
+.box-one{
+	background-color: #0047ab;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.box-four{
+	background-color: #6495ED;
+	position: absolute;
+	bottom: 0px;
+}
+
+.box-three{
+	background-color: #D3D3D3;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.box-five{
+	background-color: #F9DCC5;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.box-two{
+	background-color: #778BA5;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	top: 0px;
+	right: 0px;
+	margin: auto;
+}
