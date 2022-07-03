@@ -32,11 +32,17 @@ p{
 	top: 0px;
 	right: 0px;
 }
+.box-one:hover{
+	background-color:slategray;
+}
 
 .box-four{
 	background-color: #6495ED;
 	position: absolute;
 	bottom: 0px;
+}
+.box-four:hover{
+	background-color:blue;
 }
 
 .box-three{
@@ -45,12 +51,18 @@ p{
 	top: 0px;
 	left: 0px;
 }
+.box-three:hover{
+	background-color:pink;
+}
 
 .box-five{
 	background-color: #F9DCC5;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
+}
+.box-five:hover{
+	background-color:paleblue;
 }
 
 .box-two{
@@ -61,4 +73,7 @@ p{
 	top: 0px;
 	right: 0px;
 	margin: auto;
+}
+.box-two:hover{
+	background-color:gray;
 }
